@@ -1,0 +1,100 @@
+body {
+  overflow: hidden;
+  background-color: black; }
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#whole {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: c2a;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-duration: 1.7s; }
+
+#c1 {
+  width: 600px;
+  height: 600px;
+  background-color: grey;
+  animation-name: c1a;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; }
+
+#c2 {
+  width: 400px;
+  height: 400px;
+  background-color: lightgrey;
+  animation-name: c2a;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; }
+
+#c3 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  animation-name: c3a;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; }
+
+h1 {
+  color: white; }
+
+@keyframes c1a {
+  0% {
+    border-radius: 50%;
+    background-color: red; }
+  25% {
+    border-radius: 0%;
+    background-color: green; }
+  50% {
+    border-radius: 50%;
+    background-color: blue; }
+  75% {
+    border-radius: 0%;
+    background-color: yellow; }
+  100% {
+    border-radius: 50%;
+    background-color: black; } }
+@keyframes c2a {
+  0% {
+    border-radius: 0%;
+    background-color: black; }
+  25% {
+    border-radius: 50%;
+    background-color: yellow; }
+  50% {
+    border-radius: 0%;
+    background-color: blue; }
+  75% {
+    border-radius: 50%;
+    background-color: green; }
+  100% {
+    border-radius: 0%;
+    background-color: red; } }
+@keyframes c3a {
+  0% {
+    border-radius: 50%;
+    background-color: red; }
+  25% {
+    border-radius: 0%;
+    background-color: green; }
+  50% {
+    border-radius: 50%;
+    background-color: blue; }
+  75% {
+    border-radius: 0%;
+    background-color: yellow; }
+  100% {
+    border-radius: 50%;
+    background-color: black; } }
+
+/*# sourceMappingURL=style.css.map */
